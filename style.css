@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+body main {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+body footer {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+body main div p {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0.5rem 0.75rem;
+}
+
+#mainScreen {
+    border: 10px solid gray;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+}
+
+#showNext {
+    border: 5px dashed gray;
+    padding: 8px;
+    margin: 2rem 0.75rem;
+}
+
+#score, #highest {
+    margin-top: 0;
+}
+
+#message {
+    margin-top: 8rem;
+}
+
+.control {
+    width: 70px;
+    height: 70px;
+    margin: 0 1rem;
+    background-color: gold;
+    border-radius: 50%;
+    border: 2px solid seashell;
+}

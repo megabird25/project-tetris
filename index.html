@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tetris</title>
+    <link
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <canvas id="mainScreen" width="300" height="600"></canvas>
+        <div id="list">
+            <canvas id="showNext" width="120" height="80"></canvas>
+            <p>Score :</p>
+            <p id="score">0</p>
+            <p>Highest :</p>
+            <p id="highest">0</p>
+            <p id="message">Press "Enter"<br>to begin</p>
+        </div>
+    </main>
+    <footer>
+        <button id="rotate" class="control">
+            <i class="fa-solid fa-arrow-rotate-left fa-2xl"></i>
+        </button>
+        <button id="left" class="control">
+            <i class="fa-solid fa-arrow-right fa-rotate-180 fa-2xl"></i>
+        </button>
+        <button id="down" class="control">
+            <i class="fa-solid fa-arrow-right fa-rotate-90 fa-2xl"></i>
+        </button>
+        <button id="right" class="control">
+            <i class="fa-solid fa-arrow-right fa-2xl"></i>
+        </button>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
